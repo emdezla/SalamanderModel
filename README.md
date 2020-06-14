@@ -1,7 +1,7 @@
 # Salamander-Robotica Simulation
 ##### Florian Genilloud, Emilio Fernández, Joachim Durant
 
-This is the final project for Computational Motor Control (2020 EPFL course). We made used of the Central Pattern Generator model explained in class and simulated a salamander capable of both swimming and walking. What's even more important, we were sucessful in developing a smooth transition from walking to swimming thanks to a fine parameter tuning. We explain the totality of our results in this [report](report.pdf).
+This is the final project for Computational Motor Control (2020 EPFL course). We made use of the Central Pattern Generator model explained in class for simulating a salamander capable of both swimming and walking. What's even more important, we were sucessful in developing a smooth transition from walking to swimming thanks to a fine parameter tuning. We explain the totality of our results in this [report](report.pdf).
 
 ![](simulation_final.gif)
 
