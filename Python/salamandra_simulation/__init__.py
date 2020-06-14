@@ -1,0 +1,2 @@
+"""Salamandra robotica II simulation"""
+

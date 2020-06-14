@@ -1,0 +1,1520 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+<world>
+  <model name="salamandra_robotica">
+    <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    <link name="link_body_0">
+      <pose>-0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.167578125</mass>
+        <inertia>
+          <ixx>6.188171386718749e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00013443344116210939</iyy>
+          <iyz>0</iyz>
+          <izz>0.00011182785034179688</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_body_0_box_collision">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="link_body_0_cylinder_collision">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_body_0_box_visual">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_body_0_cylinder_visual">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_body_1">
+      <pose>-0.115 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.24250488281250004</mass>
+        <inertia>
+          <ixx>0.00014816322088241578</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0001523569291830063</iyy>
+          <iyz>0</iyz>
+          <izz>0.00017825727164745336</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_body_1_box_collision">
+        <pose>-0.033593750000000006 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.06718750000000001 0.065625 0.055</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="link_body_1_cylinder_collision">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0328125 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_body_1_box_visual">
+        <pose>-0.033593750000000006 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.06718750000000001 0.065625 0.055</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_body_1_cylinder_visual">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0328125 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_body_2">
+      <pose>-0.2 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.167578125</mass>
+        <inertia>
+          <ixx>6.188171386718749e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00013443344116210939</iyy>
+          <iyz>0</iyz>
+          <izz>0.00011182785034179688</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_body_2_box_collision">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="link_body_2_cylinder_collision">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_body_2_box_visual">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_body_2_cylinder_visual">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_body_3">
+      <pose>-0.30000000000000004 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.167578125</mass>
+        <inertia>
+          <ixx>6.188171386718749e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00013443344116210939</iyy>
+          <iyz>0</iyz>
+          <izz>0.00011182785034179688</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_body_3_box_collision">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="link_body_3_cylinder_collision">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_body_3_box_visual">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_body_3_cylinder_visual">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_body_4">
+      <pose>-0.4 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.167578125</mass>
+        <inertia>
+          <ixx>6.188171386718749e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00013443344116210939</iyy>
+          <iyz>0</iyz>
+          <izz>0.00011182785034179688</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_body_4_box_collision">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="link_body_4_cylinder_collision">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_body_4_box_visual">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_body_4_cylinder_visual">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_body_5">
+      <pose>-0.515 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.24250488281250004</mass>
+        <inertia>
+          <ixx>0.00014816322088241578</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.0001523569291830063</iyy>
+          <iyz>0</iyz>
+          <izz>0.00017825727164745336</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_body_5_box_collision">
+        <pose>-0.033593750000000006 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.06718750000000001 0.065625 0.055</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="link_body_5_cylinder_collision">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0328125 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_body_5_box_visual">
+        <pose>-0.033593750000000006 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.06718750000000001 0.065625 0.055</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_body_5_cylinder_visual">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0328125 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_body_6">
+      <pose>-0.6000000000000001 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.167578125</mass>
+        <inertia>
+          <ixx>6.188171386718749e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00013443344116210939</iyy>
+          <iyz>0</iyz>
+          <izz>0.00011182785034179688</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_body_6_box_collision">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="link_body_6_cylinder_collision">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_body_6_box_visual">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_body_6_cylinder_visual">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_body_7">
+      <pose>-0.7000000000000001 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.167578125</mass>
+        <inertia>
+          <ixx>6.188171386718749e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00013443344116210939</iyy>
+          <iyz>0</iyz>
+          <izz>0.00011182785034179688</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_body_7_box_collision">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="link_body_7_cylinder_collision">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_body_7_box_visual">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_body_7_cylinder_visual">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_body_8">
+      <pose>-0.8 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.167578125</mass>
+        <inertia>
+          <ixx>6.188171386718749e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00013443344116210939</iyy>
+          <iyz>0</iyz>
+          <izz>0.00011182785034179688</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_body_8_box_collision">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="link_body_8_cylinder_collision">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_body_8_box_visual">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_body_8_cylinder_visual">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_body_9">
+      <pose>-0.9 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.167578125</mass>
+        <inertia>
+          <ixx>6.188171386718749e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00013443344116210939</iyy>
+          <iyz>0</iyz>
+          <izz>0.00011182785034179688</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_body_9_box_collision">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="link_body_9_cylinder_collision">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_body_9_box_visual">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_body_9_cylinder_visual">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_body_10">
+      <pose>-1.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.167578125</mass>
+        <inertia>
+          <ixx>6.188171386718749e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.00013443344116210939</iyy>
+          <iyz>0</iyz>
+          <izz>0.00011182785034179688</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_body_10_box_collision">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="link_body_10_cylinder_collision">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_body_10_box_visual">
+        <pose>-0.040625 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.08125 0.0375 0.055</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_body_10_cylinder_visual">
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.01875 0.0 0.0</radius>
+            <length>0.055 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_leg_femur_0_L_0">
+      <pose>-0.15500000000000003 -0.0375 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.010471975511965978</mass>
+        <inertia>
+          <ixx>6.108652381980154e-07</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>6.108652381980154e-07</iyy>
+          <iyz>0</iyz>
+          <izz>5.235987755982989e-07</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_leg_femur_0_L_0_hip_collision">
+        <pose>0.0 0.0 0.0 -1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name="link_leg_femur_0_L_0_femur_collision">
+        <pose>0.0 -0.01 0.0 -1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.02 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+      </collision>
+      <visual name="link_leg_femur_0_L_0_hip_visual">
+        <pose>0.0 0.0 0.0 -1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_leg_femur_0_L_0_femur_visual">
+        <pose>0.0 -0.01 0.0 -1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.02 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_leg_femur_0_R_0">
+      <pose>-0.15500000000000003 0.0375 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.010471975511965978</mass>
+        <inertia>
+          <ixx>6.108652381980154e-07</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>6.108652381980154e-07</iyy>
+          <iyz>0</iyz>
+          <izz>5.235987755982989e-07</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_leg_femur_0_R_0_hip_collision">
+        <pose>0.0 0.0 0.0 1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name="link_leg_femur_0_R_0_femur_collision">
+        <pose>0.0 0.01 0.0 1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.02 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+      </collision>
+      <visual name="link_leg_femur_0_R_0_hip_visual">
+        <pose>0.0 0.0 0.0 1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_leg_femur_0_R_0_femur_visual">
+        <pose>0.0 0.01 0.0 1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.02 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_leg_femur_1_L_0">
+      <pose>-0.555 -0.0375 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.010471975511965978</mass>
+        <inertia>
+          <ixx>6.108652381980154e-07</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>6.108652381980154e-07</iyy>
+          <iyz>0</iyz>
+          <izz>5.235987755982989e-07</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_leg_femur_1_L_0_hip_collision">
+        <pose>0.0 0.0 0.0 -1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name="link_leg_femur_1_L_0_femur_collision">
+        <pose>0.0 -0.01 0.0 -1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.02 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+      </collision>
+      <visual name="link_leg_femur_1_L_0_hip_visual">
+        <pose>0.0 0.0 0.0 -1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_leg_femur_1_L_0_femur_visual">
+        <pose>0.0 -0.01 0.0 -1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.02 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_leg_femur_1_R_0">
+      <pose>-0.555 0.0375 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0.010471975511965978</mass>
+        <inertia>
+          <ixx>6.108652381980154e-07</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>6.108652381980154e-07</iyy>
+          <iyz>0</iyz>
+          <izz>5.235987755982989e-07</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_leg_femur_1_R_0_hip_collision">
+        <pose>0.0 0.0 0.0 1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name="link_leg_femur_1_R_0_femur_collision">
+        <pose>0.0 0.01 0.0 1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.02 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+      </collision>
+      <visual name="link_leg_femur_1_R_0_hip_visual">
+        <pose>0.0 0.0 0.0 1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_leg_femur_1_R_0_femur_visual">
+        <pose>0.0 0.01 0.0 1.5707963267948966 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.02 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_leg_tibia_0_L_0">
+      <pose>-0.15500000000000003 -0.08578427124746191 -0.028284271247461905 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.016755160819145565</mass>
+        <inertia>
+          <ixx>2.6529004630313814e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>2.6529004630313814e-06</iyy>
+          <iyz>0</iyz>
+          <izz>8.377580409572783e-07</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_leg_tibia_0_L_0_tibia_collision">
+        <pose>0.0 0.014142135623730952 0.014142135623730952 -0.7853981633974483 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.04 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+      </collision>
+      <collision name="link_leg_tibia_0_L_0_collision">
+        <pose>0.0 0.0 -0.005 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_leg_tibia_0_L_0_tibia_visual">
+        <pose>0.0 0.014142135623730952 0.014142135623730952 -0.7853981633974483 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.04 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_leg_tibia_0_L_0_visual">
+        <pose>0.0 0.0 -0.005 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_leg_tibia_0_R_0">
+      <pose>-0.15500000000000003 0.08578427124746191 -0.028284271247461905 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.016755160819145565</mass>
+        <inertia>
+          <ixx>2.6529004630313814e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>2.6529004630313814e-06</iyy>
+          <iyz>0</iyz>
+          <izz>8.377580409572783e-07</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_leg_tibia_0_R_0_tibia_collision">
+        <pose>0.0 -0.014142135623730952 0.014142135623730952 0.7853981633974483 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.04 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+      </collision>
+      <collision name="link_leg_tibia_0_R_0_collision">
+        <pose>0.0 0.0 -0.005 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_leg_tibia_0_R_0_tibia_visual">
+        <pose>0.0 -0.014142135623730952 0.014142135623730952 0.7853981633974483 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.04 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_leg_tibia_0_R_0_visual">
+        <pose>0.0 0.0 -0.005 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_leg_tibia_1_L_0">
+      <pose>-0.555 -0.08578427124746191 -0.028284271247461905 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.016755160819145565</mass>
+        <inertia>
+          <ixx>2.6529004630313814e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>2.6529004630313814e-06</iyy>
+          <iyz>0</iyz>
+          <izz>8.377580409572783e-07</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_leg_tibia_1_L_0_tibia_collision">
+        <pose>0.0 0.014142135623730952 0.014142135623730952 -0.7853981633974483 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.04 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+      </collision>
+      <collision name="link_leg_tibia_1_L_0_collision">
+        <pose>0.0 0.0 -0.005 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_leg_tibia_1_L_0_tibia_visual">
+        <pose>0.0 0.014142135623730952 0.014142135623730952 -0.7853981633974483 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.04 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_leg_tibia_1_L_0_visual">
+        <pose>0.0 0.0 -0.005 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="link_leg_tibia_1_R_0">
+      <pose>-0.555 0.08578427124746191 -0.028284271247461905 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.016755160819145565</mass>
+        <inertia>
+          <ixx>2.6529004630313814e-06</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>2.6529004630313814e-06</iyy>
+          <iyz>0</iyz>
+          <izz>8.377580409572783e-07</izz>
+        </inertia>
+      </inertial>
+      <collision name="link_leg_tibia_1_R_0_tibia_collision">
+        <pose>0.0 -0.014142135623730952 0.014142135623730952 0.7853981633974483 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.04 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+      </collision>
+      <collision name="link_leg_tibia_1_R_0_collision">
+        <pose>0.0 0.0 -0.005 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name="link_leg_tibia_1_R_0_tibia_visual">
+        <pose>0.0 -0.014142135623730952 0.014142135623730952 0.7853981633974483 0.0 0.0</pose>
+        <geometry>
+          <capsule>
+            <length>0.04 0.0 0.0</length>
+            <radius>0.01 0.0 0.0</radius>
+          </capsule>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+      <visual name="link_leg_tibia_1_R_0_visual">
+        <pose>0.0 0.0 -0.005 0.0 0.0 0.0</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.02 0.0 0.0</radius>
+            <length>0.01 0.0 0.0</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.1 0.1 0.1 1.0</ambient>
+          <diffuse>0.1 0.1 0.1 1.0</diffuse>
+          <specular>0.1 0.1 0.1 1.0</specular>
+          <emissive>0.1 0.1 0.1 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="eyes">
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0 0 0 0 0 0</pose>
+        <mass>0</mass>
+        <inertia>
+          <ixx>0</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0</iyy>
+          <iyz>0</iyz>
+          <izz>0</izz>
+        </inertia>
+      </inertial>
+      <visual name="eyes_left_visual">
+        <pose>0.0 -0.01875 0.03125 0.0 0.0 0.0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.00375 0.0 0.0</radius>
+          </sphere>
+        </geometry>
+        <material/>
+      </visual>
+      <visual name="eyes_right_visual">
+        <pose>0.0 0.01875 0.03125 0.0 0.0 0.0</pose>
+        <geometry>
+          <sphere>
+            <radius>0.00375 0.0 0.0</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.0 0.0 0.0 1.0</ambient>
+          <diffuse>0.0 0.0 0.0 1.0</diffuse>
+          <specular>0.0 0.0 0.0 1.0</specular>
+          <emissive>0.0 0.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="tail">
+      <pose>-1.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0.04125</mass>
+        <inertia>
+          <ixx>1.0591796875e-05</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>4.477343750000001e-05</iyy>
+          <iyz>0</iyz>
+          <izz>3.456835937500001e-05</izz>
+        </inertia>
+      </inertial>
+      <collision name="tail_collision">
+        <pose>-0.13125 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.0075 0.055</size>
+          </box>
+        </geometry>
+      </collision>
+      <visual name="tail_visual">
+        <pose>-0.13125 0.0 0.0 0.0 0.0 0.0</pose>
+        <geometry>
+          <box>
+            <size>0.1 0.0075 0.055</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.0 1.0 0.0 1.0</ambient>
+          <diffuse>1.0 1.0 0.0 1.0</diffuse>
+          <specular>1.0 1.0 0.0 1.0</specular>
+          <emissive>1.0 1.0 0.0 1.0</emissive>
+        </material>
+      </visual>
+    </link>
+    <joint name="joint_body_0" type="revolute">
+      <parent>link_body_0</parent>
+      <child>link_body_1</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_body_1" type="revolute">
+      <parent>link_body_1</parent>
+      <child>link_body_2</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_body_2" type="revolute">
+      <parent>link_body_2</parent>
+      <child>link_body_3</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_body_3" type="revolute">
+      <parent>link_body_3</parent>
+      <child>link_body_4</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_body_4" type="revolute">
+      <parent>link_body_4</parent>
+      <child>link_body_5</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_body_5" type="revolute">
+      <parent>link_body_5</parent>
+      <child>link_body_6</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_body_6" type="revolute">
+      <parent>link_body_6</parent>
+      <child>link_body_7</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_body_7" type="revolute">
+      <parent>link_body_7</parent>
+      <child>link_body_8</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_body_8" type="revolute">
+      <parent>link_body_8</parent>
+      <child>link_body_9</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_body_9" type="revolute">
+      <parent>link_body_9</parent>
+      <child>link_body_10</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 0 1</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_leg_tibia_0_L_0" type="continuous">
+      <parent>link_body_1</parent>
+      <child>link_leg_femur_0_L_0</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_leg_tibia_0_R_0" type="continuous">
+      <parent>link_body_1</parent>
+      <child>link_leg_femur_0_R_0</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_leg_tibia_1_L_0" type="continuous">
+      <parent>link_body_5</parent>
+      <child>link_leg_femur_1_L_0</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_leg_tibia_1_R_0" type="continuous">
+      <parent>link_body_5</parent>
+      <child>link_leg_femur_1_R_0</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_leg_dummy_0_L_0_dummy" type="fixed">
+      <parent>link_leg_femur_0_L_0</parent>
+      <child>link_leg_tibia_0_L_0</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_leg_dummy_0_R_0_dummy" type="fixed">
+      <parent>link_leg_femur_0_R_0</parent>
+      <child>link_leg_tibia_0_R_0</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_leg_dummy_1_L_0_dummy" type="fixed">
+      <parent>link_leg_femur_1_L_0</parent>
+      <child>link_leg_tibia_1_L_0</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_leg_dummy_1_R_0_dummy" type="fixed">
+      <parent>link_leg_femur_1_R_0</parent>
+      <child>link_leg_tibia_1_R_0</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+      <axis>
+        <xyz>1 0 0</xyz>
+        <limit>
+          <lower>-1.5707963267948966</lower>
+          <upper>1.5707963267948966</upper>
+          <effort>2</effort>
+          <velocity>628.3185307179587</velocity>
+        </limit>
+      </axis>
+    </joint>
+    <joint name="joint_eyes" type="fixed">
+      <parent>link_body_0</parent>
+      <child>eyes</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint name="joint_tail" type="fixed">
+      <parent>link_body_10</parent>
+      <child>tail</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+  </model>
+</world>
+</sdf>

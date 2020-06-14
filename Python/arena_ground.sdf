@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="ground">
+    <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    <link name="ground">
+      <pose>0 0 -0.1 0 0 0</pose>
+      <inertial>
+        <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+        <mass>0</mass>
+        <inertia>
+          <ixx>0.0</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>0.0</iyy>
+          <iyz>0.0</iyz>
+          <izz>0.0</izz>
+        </inertia>
+      </inertial>
+      <collision name="ground_collision">
+        <pose>0 0 -0.1 0 0 0</pose>
+        <geometry>
+          <plane>
+            <size>1 1 1</size>
+            <normal>0 0 1</normal>
+          </plane>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

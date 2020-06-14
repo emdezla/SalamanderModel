@@ -1,0 +1,133 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="arena_ramp">
+    <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    <link name="floor_0">
+      <pose>0 0 0 0 0 0</pose>
+      <inertial>
+        <pose>0.0 0.0 -0.05 1.5707963267948966 0.0 0.0</pose>
+        <mass>0</mass>
+        <inertia>
+          <ixx>133336.6666666667</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>134666.6666666667</iyy>
+          <iyz>0.0</iyz>
+          <izz>1336.6666666666667</izz>
+        </inertia>
+      </inertial>
+      <collision name="floor_0_collision">
+        <pose>0 0 -0.05 1.5707963267948966 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/arena.obj</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="floor_0_visual">
+        <pose>0 0 -0.05 1.5707963267948966 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/arena.obj</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <emissive>1 1 1 1</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="floor_1">
+      <pose>-3.954423259036624 0 -0.520944533000791 0 -0.17453292519943295 0</pose>
+      <inertial>
+        <pose>0.0 0.0 -0.05 1.5707963267948966 0.0 0.0</pose>
+        <mass>0</mass>
+        <inertia>
+          <ixx>400010.00000000006</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>436000.00000000006</iyy>
+          <iyz>0.0</iyz>
+          <izz>36010.0</izz>
+        </inertia>
+      </inertial>
+      <collision name="floor_1_collision">
+        <pose>0 0 -0.05 1.5707963267948966 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/arena_ramp.obj</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="floor_1_visual">
+        <pose>0 0 -0.05 1.5707963267948966 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/arena_ramp.obj</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <emissive>1 1 1 1</emissive>
+        </material>
+      </visual>
+    </link>
+    <link name="floor_2">
+      <pose>-7.908846518073248 0 -1.041889066001582 0 0 0</pose>
+      <inertial>
+        <pose>0.0 0.0 -0.05 1.5707963267948966 0.0 0.0</pose>
+        <mass>0</mass>
+        <inertia>
+          <ixx>133336.6666666667</ixx>
+          <ixy>0.0</ixy>
+          <ixz>0.0</ixz>
+          <iyy>134666.6666666667</iyy>
+          <iyz>0.0</iyz>
+          <izz>1336.6666666666667</izz>
+        </inertia>
+      </inertial>
+      <collision name="floor_2_collision">
+        <pose>0 0 -0.05 1.5707963267948966 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/arena.obj</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="floor_2_visual">
+        <pose>0 0 -0.05 1.5707963267948966 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>meshes/arena.obj</uri>
+            <scale>1.0 1.0 1.0</scale>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>1 1 1 1</ambient>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>1 1 1 1</specular>
+          <emissive>1 1 1 1</emissive>
+        </material>
+      </visual>
+    </link>
+    <joint name="joint_0" type="revolute">
+      <parent>floor_0</parent>
+      <child>floor_1</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+    <joint name="joint_1" type="revolute">
+      <parent>floor_1</parent>
+      <child>floor_2</child>
+      <pose>0.0 0.0 0.0 0.0 0.0 0.0</pose>
+    </joint>
+  </model>
+</sdf>
